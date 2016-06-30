@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.mycommons.androidpolling.MainActivity">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Start Polling"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintTop_toTopOf="@+id/activity_main"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Stop Polling"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintTop_toBottomOf="@+id/start"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+</android.support.constraint.ConstraintLayout>
